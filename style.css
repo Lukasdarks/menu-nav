@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  background-color: #3494e6;
+  height: 100vh;
+  margin: 0%;
+}
+.container {
+  display: grid;
+  grid-template-columns: 600px;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+.menu {
+  background: #add8e6af;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding: 0, 5rem 1rem;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.logo {
+  display: grid;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", sans-serif;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.navegation {
+  text-decoration: none;
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: end;
+  grid-gap: 1.5rem;
+  padding: 0.5rem;
+}
